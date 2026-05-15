@@ -9,12 +9,12 @@ Install locally:
 3. Choose this directory:
 
 ```text
-/Users/alex/Documents/Codex/2026-05-14/zed/zed-heta
+<folder>/zed-heta
 ```
 
 The extension uses the local grammar repository:
 
 ```text
-/Users/alex/Documents/Codex/2026-05-14/zed/tree-sitter-heta
+<folder>/tree-sitter-heta
 ```
 
