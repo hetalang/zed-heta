@@ -29,9 +29,18 @@
   space: (identifier) @namespace
   name: (identifier) @variable)
 
+((statement
+  (index
+    (identifier) @variable.definition)
+  (class
+    name: (identifier) @_class_name))
+  (#not-eq? @_class_name "Reaction"))
+
 (statement
   (index
-    (identifier) @variable.definition))
+    (identifier) @variable.definition)
+  .
+  (metadata))
 
 (namespace_block
   name: (identifier) @namespace)
@@ -130,6 +139,3 @@
 (switch_assignment_operator
   "[" @operator
   "]=" @operator)
-
-((identifier) @function
-  (#match? @function "^(V_|v_)[A-Za-z0-9_]*$"))
