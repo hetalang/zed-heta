@@ -1,4 +1,4 @@
-# heta-highlight-zed package
+# zed-heta package
 
 This package is a plugin for the [Zed editor](https://zed.dev/) that provides syntax highlighting for [Heta language](https://hetalang.github.io/) code.
 
@@ -12,12 +12,10 @@ Use this extension to improve readability of Heta model files in Zed by adding l
 ## Heta project links
 
 - [Heta project website](https://hetalang.github.io/)
-- [Heta on GitHub](https://github.com/hetalang)
 - [heta-highlight-vscode](https://github.com/hetalang/heta-highlight-vscode)
+- [tree-sitter-heta grammar](https://github.com/hetalang/tree-sitter-heta)
 
-## Package links
-
-- [Repository](https://github.com/hetalang/zed-heta)
+This extension provides Zed integration, while parsing comes from the external [tree-sitter-heta](https://github.com/hetalang/tree-sitter-heta) grammar.
 
 ## Local installation (development)
 
