@@ -1,5 +1,5 @@
-id = "zed-heta"
-name = "Heta Highlight for Zed"
+id = "heta"
+name = "Heta"
 version = "0.1.0"
 schema_version = 1
 authors = ["Alexander Stepanov <stepanov@insysbio.com>"]
@@ -8,4 +8,4 @@ repository = "https://github.com/hetalang/zed-heta"
 
 [grammars.heta]
 repository = "https://github.com/hetalang/tree-sitter-heta"
-commit = "bc578e4a01595003697bfa129b902bef8df46885"
+commit = "v0.1.0"
