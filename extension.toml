@@ -8,4 +8,4 @@ repository = "https://github.com/hetalang/zed-heta"
 
 [grammars.heta]
 repository = "https://github.com/hetalang/tree-sitter-heta"
-commit = "v0.1.0"
+rev = "df26d5ef6e643d8dacef7f286632e098621b412d"
